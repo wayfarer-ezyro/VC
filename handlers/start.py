@@ -12,9 +12,9 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAICp2CK7zOJT5t3YRafPE-FYDFRIYU8AAJOBAACoVbRV6f8GClWmehNHwQ")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your Group's Voice Chat!
-\nI’m created & maintained by [𖤍 Λℓσηє 𖤍](https://AidanNia).
-\nHit /help to get the list of available commands.
+\nI’m Σуωα, a Music Bot that can play music in your Group's Voice Chat!
+\nI’m created & maintained by @AidanNia.
+\nPress /help to get the list of available commands.
  </b>""",
       
        
