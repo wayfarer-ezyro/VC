@@ -14,6 +14,7 @@ async def start_(client: Client, message: Message):
         f"""<b>Hi {message.from_user.first_name}!
 \nI’m Σуωα, a Music Bot that can play music in your Group's Voice Chat!
 \nI’m created & maintained by @AidanNia.
+\nTo add me to your chat, you must contact my creator at @EywasSC!
 \nPress /help to get the list of available commands.
  </b>""",
       
