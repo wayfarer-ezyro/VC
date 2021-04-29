@@ -9,13 +9,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
+    await message.reply_sticker("CAACAgUAAxkBAAICp2CK7zOJT5t3YRafPE-FYDFRIYU8AAJOBAACoVbRV6f8GClWmehNHwQ")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your group's voice chat
-Maintained by @HEROGAMERS1 ❤
-\nTo add in your group contact us at @LaylaSupport.
-\nHit /help list of available commands.
+\nI can play music in your Group's Voice Chat!
+\nI’m created & maintained by [𖤍 Λℓσηє 𖤍](https://AidanNia).
+\nHit /help to get the list of available commands.
  </b>""",
       
        
@@ -23,23 +22,23 @@ Maintained by @HEROGAMERS1 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/GIRLS_AND_BOYS_CHATTING",
+                        "🦋 Friendly Chat 🦋", url="https://t.me/gangstersgroupp",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/LaylaSupport"
+                        "SUPPORT", url="https://t.me/EywasSC"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "CHANNEL", url="https://t.me/EywasUpdates"
                     ),
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "Σνα", url="https://t.me/EvaNilaBot"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/VCPlayBotBot?startgroup=true"
+                        "🦋 Add Me To Your Group 🦋", url="https://t.me/ANVCBot?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,7 +57,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🦋 Update Channel 🦋", url="https://t.me/EywasUpdates"
                     )
                 ],    
                 [    
@@ -104,7 +103,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🦋 Update Channel 🦋", url="https://t.me/EywasUpdates"
                     )
                 ]
             ]
